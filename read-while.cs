@@ -1,4 +1,5 @@
 // StreamReader While Example
+using System;
 using System.IO;
 namespace ReadFile
 {   
@@ -11,7 +12,7 @@ namespace ReadFile
             
             while (Line != null)
             {
-                System.Console.WriteLine(Line);
+                Console.WriteLine(Line);
                 Line = TextFile.ReadLine();
             }
             TextFile.Close();
