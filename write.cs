@@ -6,9 +6,9 @@ namespace WriteFile
     class Write {          
         static void Main(string[] args) 
         { 
-         	StreamWriter fileOut = new StreamWriter("fileName.txt"); 
-          fileOut.WriteLine("testing123"); 
-          fileOut.Close(); 
+            StreamWriter fileOut = new StreamWriter("fileName.txt"); 
+            fileOut.WriteLine("testing123");
+            fileOut.Close(); 
         } 
     } 
 } 
