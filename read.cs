@@ -1,4 +1,5 @@
 // StreamReader Line Example
+using System;
 using System.IO;
 namespace ReadFile
 {   
@@ -8,7 +9,7 @@ namespace ReadFile
             string Line = "";
             StreamReader TextFile = new StreamReader("file.txt");
             Line = TextFile.ReadLine();
-            System.Console.WriteLine(Line);
+            Console.WriteLine(Line);
             TextFile.Close();
         }
     }
