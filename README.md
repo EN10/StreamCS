@@ -1,2 +1,3 @@
 # StreamCS
-StreamReader in C Sharp
+
+StreamReader and StreamWriter in C Sharp
